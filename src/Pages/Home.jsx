@@ -86,7 +86,7 @@ export default function Home() {
   
   </div>
   <footer className='bg-dark text-center pt-3 text-secondary'>
-   <p className='footer'>© 2024 Abraham Olatunji. All rights reserved. |  abrahamolatunji01@gmail.com</p>
+   <p className='footer'>© 2024 Abraham Olatunji. All rights reserved.</p>
 
    </footer>
    </>

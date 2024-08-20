@@ -8,25 +8,34 @@ hr{
     background-color: rgb(19, 17, 17);
 }
 
-@media (max-width:500px) {
+@media (max-width:600px) {
    .top-bar{
-    background-color: rgb(197, 197, 197);
-    color: black;
+    background-color: rgb(149, 151, 242);
     padding: 30px;
    } 
    .top-item link{
     color: black;
    }
+   .img-logo{
+    display: none;
+   }
+   .con-img{
+    position: relative;
+    left: -2rem;
+    /* top: 3rem; */
+}
   
    .img{
         position: relative;
-        left: 2rem;
+        left: -1rem;
+      
+        
    }
    .con-det{
-    padding-left:5rem;
-    margin-top: -15rem;
+    padding-left:1rem;
+    margin-top: -8rem;
    }
-  
+ 
 }
 .home{
     overflow-x: hidden;
@@ -47,9 +56,9 @@ hr{
 }
 
 .con-img{
-    margin-top: 4rem;
+    margin-top: 2.5rem;
     position: relative;
-    left: 2rem;
+    right: 2rem;
 }
 
 

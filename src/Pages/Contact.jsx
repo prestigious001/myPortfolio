@@ -11,9 +11,9 @@ export default function Contact() {
     <div className="row text-light">
       <div className=" col-md-1"></div>
 
-      <div className="col-12 col-md-4 col-lg-5 pl-5 con-img " style={{marginBottom:'11.3rem'}}>
+      <div className="col-6 col-md-4 col-lg-5 pl-5 con-img " style={{marginBottom:'5.3rem'}}>
 
-            <img src={boy} alt='Logo' style={{width:'20rem',height:'20rem' , borderRadius:'50rem 50rem 0 50rem'}} className=''/>
+            <img src={boy} alt='Logo' style={{width:'25rem',height:'25rem' , borderRadius:'50rem 50rem 0 50rem'}} className='con-img'/>
 
 
       </div>
@@ -70,7 +70,7 @@ export default function Contact() {
   
   </div>
   <footer className='bg-dark text-center pt-3 text-secondary'>
-   <p className='footer'>© 2024 Abraham Olatunji. All rights reserved. |  abrahamolatunji01@gmail.com</p>
+   <p className='footer'>© 2024 Abraham Olatunji. All rights reserved.</p>
 
    </footer>
     </>

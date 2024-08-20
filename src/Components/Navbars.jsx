@@ -11,7 +11,7 @@ export default function NavBar() {
     <>
 <nav className="navbar navbar-expand-lg top-bar">
   <div className="container-fluid">
-    <img src={boy} alt='Logo' style={{width:'50px',height:'50px' , borderRadius:'50px', border:'solid 3px black'}} className='mr-2'/>
+    <img src={boy} alt='Logo' style={{width:'50px',height:'50px' , borderRadius:'50px', border:'solid 3px black'}} className='mr-2 img-logo'/>
     <span className="navbar-brand logo text-light" ><b className='text-primary'>ABRAHAM </b >OLATUNJI</span>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

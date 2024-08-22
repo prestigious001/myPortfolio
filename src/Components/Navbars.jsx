@@ -35,17 +35,26 @@ export default function NavBar() {
         <Link to="/contact" className="nav-link active text-light" aria-current="page">
        Contact {menu === 'contact'?<hr/>:<></>}
         </Link>
-        
         </li>
-        <li className="nav-item" onClick={() => {setMenu("projects")}}>
-        <Link to="/projects" className="nav-link active text-light" aria-current="page">
-        Projects{menu === 'projects'?<hr/>:<></>}
-        </Link>
+      
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="https//" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Projects
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="http">Prestigious Tech Hub</a></li>
+            <li><a class="dropdown-item" href="http">The place</a></li>
+            <li><a class="dropdown-item" href="http">AirTravel</a></li>
+            <li><a class="dropdown-item" href="http">PLG</a></li>
+            <li><hr class="dropdown-divider"/></li>
+            <li><a class="dropdown-item" href="https//">ABRAHAM OLATUNJI</a></li>
+          </ul>
         </li>
 
         <li className="nav-item" onClick={() => {setMenu("blog")}}>
-        <Link to="/blog" className="nav-link active text-light" aria-current="page">
-         Testmonials {menu === 'blog'?<hr/>:<></>}
+        <Link to="/testimonials" className="nav-link active text-light" aria-current="page">
+         Testmonials {menu === 'testimonials'?<hr/>:<></>}
         </Link>
         </li>
 

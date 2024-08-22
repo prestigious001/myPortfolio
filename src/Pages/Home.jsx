@@ -1,7 +1,7 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import boy from '../assets/boy.jpg';
-import { FaFacebook,FaTwitter,FaInstagram,FaLinkedin} from 'react-icons/fa';
+import { FaFacebook,FaTwitter,FaLinkedin} from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       
 
           <h1>  Hi, I'm <span> Abraham Olatunji</span>  </h1>
-          <h1> a Full-stack developer skilled in
+          <h1> a Web Developer skilled in
             
             <Typewriter options={{ strings: [
                 '< JavaScript / >',
@@ -28,13 +28,11 @@ export default function Home() {
                 pauseFor: 1500 }} />
           </h1>
           <p className='paragraph'>
-            Lorem ipsum dolor sit amet c
-            adipisicing elit. Nulla, nesc e
-            a totam ipsam laudantium, 
-             qui praesentium, illum nihil  repudiandae 
-             veniam. Exercitationem modi tationem mo
-             qui praesentium, illum nihil  repudiandae 
-             veniam. Exercitationem modi tationem mo
+          I'm a passionate web developer who also excels in ui/ux design
+          i merge design insight with technical proficiency to craft intuitive,
+          engaging and responsive websites. Focused on user needs, i deliver functional solutions 
+          that enhance experience and drive  success
+  
            
           </p>
           <a href="https://github.com/prestigious001/PrestigiousTechHub.git">
@@ -71,10 +69,7 @@ export default function Home() {
                   <FaTwitter size={30} color='#1Da1F2'/>
                 </a>
 
-                <a href="https://www.instagram.com/ab.raham3116?utm_source=qr&igsh=YjN5YjBlMDdla2dt">
-                  <FaInstagram size={30} color='#C13584'/>
-                </a>
-
+              
                 <a href="
                 https://www.linkedin.com/in/abraham-olatunji-bb15a6299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
                 ">

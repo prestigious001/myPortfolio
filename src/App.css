@@ -11,7 +11,7 @@ hr{
 @media (max-width:600px) {
    .top-bar{
     background-color: rgb(149, 151, 242);
-    padding: 30px;
+    padding: 20px;
    } 
    .top-item link{
     color: black;
@@ -38,6 +38,11 @@ hr{
  
 }
 .home{
+    overflow-x: hidden;
+}
+
+
+.test{
     overflow-x: hidden;
 
 }
